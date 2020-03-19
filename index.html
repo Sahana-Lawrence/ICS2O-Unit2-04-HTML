@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My Webpage, With JavaScript">
+    <meta name="keywords" content="JavaScript">
+    <meta name="author" content="Sahana Lawrence">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage, With JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <div>
+      <button id="body" onclick="changeBodyBg(color);">Change Background Color to lightblue!</button>
+    </div>
+    <br>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input id="lname" name="lname"><br><br>
+      <button value="Submit" onclick="myFunction(name)">Submit</button>
+    </form>
+    <br>
+    <div>
+      <button id="button">eventListener</button>
+      <br><br>
+      <input id="text" value="Skye">
+      <button onclick="myFunction(text)">Next</button>
+    </div>
+    <br>
+    <div id="hideaway">You found it!</div>
+    <br>
+    <button onclick="document.getElementById('hideaway').style.display='block';">Hidden Content</button>
+    <button onclick="document.getElementById('hideaway').style.display='none';">Hide content again</button>
+  </body>
+</html>
