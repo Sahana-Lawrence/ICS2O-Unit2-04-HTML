@@ -8,7 +8,7 @@ function changeBodyBg(color){
 // addEventListener
 document.addEventListener("click", function(alert){
   document.getElementById("button");
-  alert ("Hello!")
+  alert ("Hello!");
 });
 
 // change value of text field
