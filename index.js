@@ -1,13 +1,12 @@
 // JavaScript File
 
 // change background color to lightblue:
-function changeBodyBg(color){
+function changeBodyBg(){
   document.body.style.backgroundColor = "lightblue";
 }
 
 // addEventListener
-document.addEventListener("click", function(alert){
-  document.getElementById("button");
+document.getElementById("button").addEventListener("click", function(){
   alert ("Hello!");
 });
 
